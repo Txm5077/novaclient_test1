@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "novaclient",
+	"version": "${version}",
+	"name": "Nova Client",
+	"description": "Client-Mod mit Menü (Rechts-Shift), Hitbox-Anzeige und weiteren Modulen.",
+	"authors": ["Nova"],
+	"license": "MIT",
+	"icon": "assets/novaclient/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["de.novaclient.NovaClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
